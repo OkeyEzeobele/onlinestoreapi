@@ -34,6 +34,9 @@
     <Content Include="controllers\brand.controller.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="controllers\cart.controller.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="controllers\category.controller.js">
       <SubType>Code</SubType>
     </Content>
@@ -45,6 +48,10 @@
     <Content Include="migrations\20200817030236-create-product-brand.js" />
     <Content Include="migrations\20200817030255-create-product-category.js" />
     <Content Include="migrations\20200817030539-create-product.js" />
+    <Content Include="migrations\20200817063527-create-cart.js" />
+    <Content Include="migrations\20200817063611-create-cart-item.js" />
+    <Content Include="models\cart\cart.js" />
+    <Content Include="models\cart\cartitem.js" />
     <Content Include="models\index.js" />
     <Content Include="models\product\brand.js" />
     <Content Include="models\product\category.js" />
@@ -58,6 +65,9 @@
     <Content Include="routers\brand\brand.router.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="routers\cart\cart.router.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="routers\category\category.router.js">
       <SubType>Code</SubType>
     </Content>
@@ -67,7 +77,25 @@
     <Content Include="routers\router.register.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="seeders\brand.csv">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="seeders\category.csv">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="seeders\product-brand.csv">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="seeders\product-category.csv">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="seeders\product.csv">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="services\brand.service.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="services\cart.service.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="services\category.service.js">
@@ -84,7 +112,9 @@
     <Folder Include="config\" />
     <Folder Include="migrations\" />
     <Folder Include="models\" />
+    <Folder Include="models\cart\" />
     <Folder Include="models\product\" />
+    <Folder Include="routers\cart\" />
     <Folder Include="swagger\" />
     <Folder Include="routers\brand\" />
     <Folder Include="routers\category\" />
