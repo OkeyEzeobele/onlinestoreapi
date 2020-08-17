@@ -1,0 +1,26 @@
+{
+  "name": "expresswebapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "description": "expresswebapp",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "express-session": "^1.17.1",
+    "morgan": "^1.7.0",
+    "sequelize": "^6.3.4",
+    "sequelize-cli": "^6.2.0",
+    "serve-favicon": "^2.3.0",
+    "sqlite3": "^5.0.0",
+    "swagger-ui-express": "^4.1.4",
+    "uuid": "^8.3.0"
+  }
+}
