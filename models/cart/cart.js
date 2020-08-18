@@ -16,7 +16,7 @@ module.exports = (sequelize, DataTypes) => {
   };
   Cart.init({
     uniqueCartId: DataTypes.STRING,
-    cartStatus: DataTypes.ENUM
+      cartStatus: { type: DataTypes.ENUM, values: ['Open', 'CheckedOut'] }
   }, {
     sequelize,
     modelName: 'Cart',
